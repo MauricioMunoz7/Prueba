@@ -1,0 +1,40 @@
+/* selector universal /resetear los estilos por default*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*comentarios*/
+/* selector{
+    propiedad: valor;
+}
+*/
+header{
+    background-color: blue;
+}
+body{
+    background-color: gray;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.enlace{
+    color: black;
+    text-decoration: none;
+}
+#productos{
+    background-color:aqua ;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+/* Varias etiquetas, class que comparten las mismas propiedades
+pero no estan en la misma cascada */
+
+.paragrafo{
+    background-color: brown;
+    font-family: 'Tiro Bangla', serif;
+}
